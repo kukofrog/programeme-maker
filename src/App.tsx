@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Editor from "./components/Editor";
 
 const Container = styled.div`
   position: relative;
@@ -36,7 +37,9 @@ function App() {
     <Container>
       <Title>PrograMEME Maker</Title>
       <Contents>
-        <Components></Components>
+        <Components>
+          <Editor />
+        </Components>
       </Contents>
     </Container>
   );
